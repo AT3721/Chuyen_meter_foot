@@ -1,6 +1,6 @@
 function meterToFoot(meter){
-    document.getElementById("outputFoot").innerHTML = (meter * 0.305).toFixed(3) + " feet.";
+    document.getElementById("outputFoot").innerHTML = (meter * 3.279).toFixed(3) + " feet.";
 }
 function footToMeter(foot){
-    document.getElementById("outputMeter").innerHTML = (foot * 3.279).toFixed(3) + " meters.";
+    document.getElementById("outputMeter").innerHTML = (foot * 0.305).toFixed(3) + " meters.";
 }
