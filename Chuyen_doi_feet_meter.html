@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi giữa feet và meters</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        body {
+            font-size: 20px;
+        }
+        .container{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Chuyển đổi giữa feet và meters</h2>
+    <hr>
+    <div class="container">
+        <p><input type="number" id="inputFoot" oninput="footToMeter(this.value)" onchange="footToMeter(this.value)"
+                placeholder="Nhập số feet vào đây"> Feet = <span id="outputMeter"></span></p>
+        <p><input type="number" id="inputMeter" oninput="meterToFoot(this.value)" onchange="meterToFoot(this.value)"
+                placeholder="Nhập số meter vào đây"> Meters = <span id="outputFoot"></span></p>
+
+        <script src="Chuyen_doi_feet_meter.js"></script>
+    </div>
+</body>
+
+</html>
